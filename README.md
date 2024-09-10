@@ -32,10 +32,10 @@
 2. `docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:8.7-community`
 Выполнение представлено на скриншотах ниже:
 
-4. ![sonar-scanner](https://github.com/user-attachments/assets/9b71eb3b-1ff2-4aab-b6aa-2b1dc85bf5ad)
-5. ![Sonar-Qube errors](https://github.com/user-attachments/assets/64a571d3-af22-4542-bd49-777dcc93a551)
-6. Были исправлены ошибки 
-7. ![sonar-Qube result](https://github.com/user-attachments/assets/ae80ea7f-e650-4e37-9bc0-80c11347349b)
+ ![sonar-scanner](https://github.com/user-attachments/assets/9b71eb3b-1ff2-4aab-b6aa-2b1dc85bf5ad)
+ ![Sonar-Qube errors](https://github.com/user-attachments/assets/64a571d3-af22-4542-bd49-777dcc93a551)
+ Были исправлены ошибки 
+ ![sonar-Qube result](https://github.com/user-attachments/assets/ae80ea7f-e650-4e37-9bc0-80c11347349b)
 
 ## Знакомство с Nexus
 
@@ -55,12 +55,12 @@
 
 ### Ответ:
 
-У меня не было возможности создать ВМ, поэтому я воспользовался docker контейнерами.
+Тажке был использоватн docker контейнер.
 1. `docker pull sonatype/nexus3`
 2. `docker run -d -p 8081:8081 --name nexus sonatype/nexus3`
-3. ![image](pic/4.png)
-4. ![image](pic/5.png)
-5. [maven-metadata.xml](./example/maven-metadata.xml)
+Выполнение задания представлено на скриншотах ниже:
+![nexus](https://github.com/user-attachments/assets/12d44e71-8c55-48a4-9b0b-797f74e0a686)
+![maven](https://github.com/user-attachments/assets/0ad3309d-b983-4d1c-8c9b-c34e78865063)
 
 ### Знакомство с Maven
 
@@ -81,7 +81,7 @@
 
 ### Ответ:
 
-[Исправленный файл](./mvn/pom.xml)
+[Исправленный файл](pom.xml)
 
 ---
 
