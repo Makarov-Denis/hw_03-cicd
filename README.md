@@ -37,6 +37,8 @@
  Были исправлены ошибки 
  ![sonar-Qube result](https://github.com/user-attachments/assets/ae80ea7f-e650-4e37-9bc0-80c11347349b)
 
+ ![test](https://github.com/user-attachments/assets/e2b7e238-52c0-400a-b17c-aad424623af0)
+
 ## Знакомство с Nexus
 
 ### Основная часть
@@ -80,6 +82,10 @@
 4. В ответе пришлите исправленный файл `pom.xml`.
 
 ### Ответ:
+Представлено на скриншоте ниже:
+
+![artefacts](https://github.com/user-attachments/assets/5b9473ac-718d-4f18-bcd1-e22b8c8d4c85)
+
 
 [Исправленный файл](pom.xml)
 
